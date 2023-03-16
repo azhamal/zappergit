@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Crypto</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+   <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <div class="main__header">
+        <div class="header__left">
+          <div class="logo__nav">
+            <a class="logo__icon" href="#"
+              ><img src="./img/logo.svg" alt="logo__icon"
+            /></a>
+            <nav>
+              <img
+                class="burger__bar"
+                src="./img/icons8-burger-bar-30.png"
+                alt="burger__icon"
+              />
+              <div class="search__main">
+                <form>
+                  <input
+                    id="input__search"
+                    type="search"
+                    placeholder="Search token, value"
+                  />
+                  <label for="input__search"
+                    ><img
+                      class="glass"
+                      src="./img/glass.svg"
+                      alt="glass__icon"
+                  /></label>
+                </form>
+              </div>
+            </nav>
+          </div>
+        </div>
+        <div class="header__right">
+          <div class="lang__main">
+            <img src="./img/lang__icon.svg" alt="flag" />
+            <select class="langMain__vector" name="lang__main">
+              <option class="lang__title">USD</option>
+            </select>
+          </div>
+          <img class="bell" src="./img/bell.svg" alt="bell__icon" />
+          <div class="user__main">
+            <img src="./img/header__img.jpg" alt="user__img" />
+            <select class="userMain__vector" name="user__main">
+              <option class="userMain__img"></option>
+            </select>
+          </div>
+        </div>
+      </div>
+    </header>
+    <aside>
+      <div class="aside__shell">
+        <div class="aside__main">
+          <div class="crypto__filter">
+            <img
+              src="./img/ethereum__icon.svg"
+              alt="ethereum__icon"
+              class="icon__crypto"
+            />
+            <div class="crypto__alt">
+              <select class="cryptoAlt__title" name="Monthly">
+                <option id="aside__title" value="">Ethereum</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="ethereum__shadow"></div>
+        <div class="dashboard__main">
+          <div class="dashboard__filter">
+            <img
+              src="./img/dashboard__icon.svg"
+              alt="dashboard__icon"
+              class="dashboard__icon"
+            />
+            <p class="dashboard__title">Dashboard</p>
+          </div>
+        </div>
+        <ul class="dashboard__items">
+          <li class="item">
+            <a href="#"
+              ><img src="./img/exchange__icon.svg" alt="icon" />Exchange</a
+            >
+          </li>
+          <li class="item">
+            <a href="#"><img src="./img/Pool__icon.svg" alt="icon" />Pool</a>
+          </li>
+          <li class="item">
+            <a href="#"><img src="./img/Farm__icon.svg" alt="icon" />Farm</a>
+          </li>
+          <li class="item">
+            <a href="#"
+              ><img src="./img/Bridge__icon.svg" alt="icon" />Bridge</a
+            >
+          </li>
+          <li class="item">
+            <a href="#"
+              ><img src="./img/History__icon.svg" alt="icon" />History</a
+            >
+          </li>
+          <li class="item">
+            <a href="#"
+              ><img src="./img/Settings__icon.svg" alt="icon" />Settings</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="loguot__main">
+        <img src="./img/logout.svg" alt="icon" class="logout__icon" />
+        <p class="logout">Logout</p>
+      </div>
+    </aside>
+    <main>
+      <div class="main__body">
+        <div class="main__header overview">
+          <h1>Overview</h1>
+          <div class="customize__main">
+            <img src="./img/customize__icon.svg" alt="icon" />
+            <a href="#"> Customize</a>
+          </div>
+        </div>
+        <div class="main__grid-top">
+          <div class="net__worth">
+            <div class="left__content">
+              <h2 class="net__worth-title">Net Worth</h2>
+              <div class="net__worth-prices">
+                <p class="net__worth-price">$1365.67</p>
+                <div class="net__worth-percent">
+                  <img src="./img/green__vec.svg" alt="vector__icon" />
+                  <p class="net__worth-priceper">4.36%</p>
+                </div>
+              </div>
+              <div class="buttons">
+                <button class="send">
+                  <img src="./img/send__icon.svg" alt="icon" />
+                  Send
+                </button>
+                <button class="buy">+ Buy</button>
+              </div>
+            </div>
+            <div class="right__content">
+              <div class="chart__icon">
+                <img
+                  class="right__content-img"
+                  src="./img/chart1.svg"
+                  alt="chart__img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="income">
+            <div class="income__top">
+              <h2 class="income__top-titles">Income</h2>
+              <p class="income__top-price">$244.67</p>
+            </div>
+            <div class="income__bottom">
+              <div class="income__bottom-percent">
+                <img src="./img/green__vec.svg" alt="vector__icon" />
+                <p class="income__bottom-priceper">4.36%</p>
+              </div>
+              <div class="charsec">
+                <img
+                  class="income__chart"
+                  src="./img/chart2.svg"
+                  alt="chart__img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="expenses">
+            <div class="expenses__top">
+              <h2 class="expenses__top-titles">Expenses</h2>
+              <p class="expenses__top-price">$68.67</p>
+            </div>
+            <div class="expenses__bottom">
+              <div class="expenses__bottom-percent">
+                <img src="./img/vector 3red.svg" alt="vector__icon" />
+                <p class="expenses__bottom-priceper">4.36%</p>
+              </div>
+              <div class="charthird">
+                <img
+                  class="expenses__chart"
+                  src="./img/chart3.svg"
+                  alt="chart__img"
+                />
+              </div>
+            </div>
+          </div>
+          <div class="portofolio">
+            <div class="portfolio__top">
+              <div class="portfolioTop__left">
+                <div class="portfolioTopLeft__icon">
+                  <img src="./img/note__icon.svg" alt="icon" />
+                </div>
+                <p class="portfolioTopLeft__txt">Portofolio Performance</p>
+              </div>
+              <div class="portfolioTop__right">
+                <div class="monthlyBorder">
+                  <select class="MonthlySelect" name="Monthly">
+                    <option value="">Monthly</option>
+                    <option value="">Dayli</option>
+                    <option value="">Weeklyy</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="portofolioBottom__left">
+              <div id="pa" class="portofolioBottom__item">$14,000</div>
+              <div id="pb" class="portofolioBottom__item">$8,000</div>
+              <div id="pc" class="portofolioBottom__item">$4,000</div>
+              <div id="pd" class="portofolioBottom__item">$2,000</div>
+              <div id="pe" class="portofolioBottom__item">$0</div>
+            </div>
+            <div class="portofolioBottom__right">
+              <div id="a" class="jan low"></div>
+              <div id="b" class="jan"></div>
+              <div id="c" class="jan mar"></div>
+              <div id="d" class="jan middle"></div>
+              <div id="e" class="jan low"></div>
+              <div id="f" class="jan"></div>
+              <div id="j" class="jan middle"></div>
+              <div id="k" class="jan"></div>
+              <div id="l" class="jan"></div>
+              <div id="m" class="jan"></div>
+            </div>
+          </div>
+          <div class="assets">
+            <div class="portfolio__top">
+              <div class="portfolioTop__left">
+                <div class="portfolioTopLeft__icon">
+                  <img src="./img/assets__icon.svg" alt="icon" />
+                </div>
+                <p class="portfolioTopLeft__txt">All Assets</p>
+              </div>
+            </div>
+            <div class="coins">
+              <div id="coins__main" class="coin">
+                <img src="./img/Ethereum.svg" alt="icon" class="coin__img" />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Ethereum</h2>
+                    <p class="coinTxts__price">$65.00</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/greenUp.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__well">8.36%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coin coins__border">
+                <img src="./img/Bitcoin.svg" alt="icon" class="coin__img" />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Bitcoin</h2>
+                    <p class="coinTxts__price">$155.00</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/redDown.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__wellRed">1.36%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coin coins__border">
+                <img src="./img/Dogecoin.svg" alt="icon" class="coin__img" />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Dogecoin</h2>
+                    <p class="coinTxts__price">$65.00</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/greenUp.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__well">0.12%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coin coins__border">
+                <img src="./img/Litecoin.svg" alt="icon" class="coin__img" />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Litecoin</h2>
+                    <p class="coinTxts__price">$65.00</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/greenUp.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__well">4.36%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coin coins__border">
+                <img
+                  src="./img/Dogey Inu.svg"
+                  alt="icon"
+                  class="coin__img"
+                />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Dogey Inu</h2>
+                    <p class="coinTxts__price">$36.12</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/greenUp.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__well">1.24%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="coin coins__border">
+                <img
+                  src="./img/Eksimo Inu.svg"
+                  alt="icon"
+                  class="coin__img"
+                />
+                <div class="coin__txts">
+                  <div class="coinTxts">
+                    <h2 class="coin__title">Eksimo Inu</h2>
+                    <p class="coinTxts__price">$12.00</p>
+                  </div>
+                  <div class="coin__well">
+                    <p class="coinWell__main">0.025 ETH - $2,908.00</p>
+                    <div class="coinWell__perc">
+                      <img
+                        src="./img/greenUp.svg"
+                        alt=""
+                        class="coinWellPerc__icon"
+                      />
+                      <p class="coinWell__well">4.36%</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a class="assets__button" href="#">View All</a>
+          </div>
+          <div class="transactions">
+            <div class="portfolio__top">
+              <div class="portfolioTop__left">
+                <div class="portfolioTopLeft__icon">
+                  <img src="./img/note__icon.svg" alt="icon" />
+                </div>
+                <p class="portfolioTopLeft__txt">Transactions</p>
+              </div>
+              <div class="portfolioTop__right">
+                <div class="monthlyBorder">
+                  <select class="MonthlySelect" name="Monthly">
+                    <option value="">Monthly</option>
+                    <option value="">Dayli</option>
+                    <option value="">Weeklyy</option>
+                  </select>
+                </div>
+              </div>
+            </div>
+            <div class="transactions__bottom">
+              <div class="transactionsBottom__top coins__border">
+                <div class="transactionsBottomTop__left">
+                  <img
+                    src="./img/tranpic1.jpg"
+                    alt="pic"
+                    class="transactionsBottomTopLeft"
+                  />
+                  <p class="user__name">William</p>
+                  <p class="transaction__name">43,90 Ethereum</p>
+                </div>
+                <div class="transactionsBottomTop__right">
+                  <p class="day">Sun 12 May, 6:19 PM</p>
+                  <img
+                    src="./img/edit.svg"
+                    alt="icon"
+                    class="transactions__icon edit"
+                  />
+                  <img
+                    src="./img/basket.svg"
+                    alt="icon"
+                    class="transactions__icon"
+                  />
+                </div>
+              </div>
+              <div class="transactionsBottom__top">
+                <div class="transactionsBottomTop__left">
+                  <img
+                    src="./img/tranpic2.jpg"
+                    alt="pic"
+                    class="transactionsBottomTopLeft"
+                  />
+                  <p class="user__name">Samuel</p>
+                  <p class="transaction__name">12,90 Ethereum</p>
+                </div>
+                <div class="transactionsBottomTop__right">
+                  <p class="day">Sun 12 May, 6:19 PM</p>
+                  <img
+                    src="./img/edit.svg"
+                    alt="icon"
+                    class="transactions__icon edit"
+                  />
+                  <img
+                    src="./img/basket.svg"
+                    alt="icon"
+                    class="transactions__icon"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
